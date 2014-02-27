@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Prolog language support in Atom",
   "engines": {
-    "atom": ">=0.50.0",
+    "atom": ">=0.50.0"
   },
   "repository": {
     "type": "git",
