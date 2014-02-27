@@ -1,0 +1,15 @@
+{
+  "name": "language-prolog",
+  "version": "0.0.0",
+  "description": "Prolog language support in Atom",
+  "engines": {
+    "atom": ">=0.50.0",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jakehp/language-prolog"
+  },
+  "bugs": {
+    "url": "https://github.com/Jakehp/language-prolog/issues"
+  }
+}
