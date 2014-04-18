@@ -1,4 +1,6 @@
-'fileTypes': []
+'fileTypes': [
+  'pl'
+]
 'name': 'Prolog'
 'patterns': [
   {
