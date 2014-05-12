@@ -88,7 +88,7 @@
     'name': 'keyword.operator.ge.prolog'
   }
   {
-    'match': '=|(?is)'
+    'match': '=|(?:is)'
     'name': 'keyword.operator.is.prolog'
   }
   {
