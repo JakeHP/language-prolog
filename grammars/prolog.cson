@@ -120,6 +120,10 @@
     'name': 'keyword.operator.minus.prolog'
   }
   {
+    'match': '\\|'
+    'name': 'keyword.operator.cons.prolog'
+  }
+  {
     'match': '\\b\\d+\\b'
     'name': 'constant.numeric.prolog'
   }
