@@ -72,6 +72,14 @@
     'name': 'support.constant.cut.prolog'
   }
   {
+    'match': 'true'
+    'name': 'support.constant.true.prolog'
+  }
+  {
+    'match': 'fail'
+    'name': 'support.constant.fail.prolog'
+  }
+  {
     'match': '_'
     'name': 'support.constant.joker.prolog'
   }
