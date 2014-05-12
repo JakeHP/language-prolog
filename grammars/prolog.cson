@@ -56,7 +56,7 @@
     'name': 'keyword.operator.definition.prolog'
   }
   {
-    'match': '.'
+    'match': '\\.'
     'name': 'punctuation.separator.statement.prolog'
   }
   {
