@@ -56,6 +56,10 @@
     'name': 'keyword.operator.definition.prolog'
   }
   {
+    'match': '\\b\\d+\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
     'match': '\\b[A-Z][a-zA-Z0-9_]*\\b'
     'name': 'variable.other.prolog'
   }
