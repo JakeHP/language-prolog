@@ -76,6 +76,10 @@
     'name': 'variable.other.prolog'
   }
   {
+    'match': '\\bconsult\(\\w*\)\\b'
+    'name': 'keyword.control.consult.prolog'
+  }
+  {
     'comment': '\n\t\t\tI changed this from entity to storage.type, but have no idea what it is -- Allan\n\t\t\tAnd I changed this to constant.other.symbol after glancing over the docs,\n\t\t\t    might still be wrong.  -- Infininight\n\t\t\t'
     'match': '\\b[a-z][a-zA-Z0-9_]*\\b'
     'name': 'constant.other.symbol.prolog'
