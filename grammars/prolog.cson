@@ -104,6 +104,14 @@
     'name': 'keyword.operator.is.prolog'
   }
   {
+    'match': '+'
+    'name': 'keyword.operator.plus.prolog'
+  }
+  {
+    'match': '-'
+    'name': 'keyword.operator.minus.prolog'
+  }
+  {
     'match': '\\b\\d+\\b'
     'name': 'constant.numeric.prolog'
   }
