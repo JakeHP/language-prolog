@@ -60,6 +60,14 @@
     'name': 'punctuation.separator.statement.prolog'
   }
   {
+    'match': ','
+    'name': 'punctuation.separator.and.prolog'
+  }
+  {
+    'match': ';'
+    'name': 'punctuation.separator.or.prolog'
+  }
+  {
     'match': '!'
     'name': 'support.constant.cut.prolog'
   }
