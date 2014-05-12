@@ -60,6 +60,14 @@
     'name': 'support.constant.cut.prolog'
   }
   {
+    'match': '_'
+    'name': 'support.constant.joker.prolog'
+  }
+  {
+    'match': '#='
+    'name': 'keyword.operator.sharpequal.prolog'
+  }
+  {
     'match': '=<'
     'name': 'keyword.operator.le.prolog'
   }
