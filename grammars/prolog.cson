@@ -76,6 +76,10 @@
     'name': 'support.constant.joker.prolog'
   }
   {
+    'match': '\\\\='
+    'name': 'keyword.operator.notequal.prolog'
+  }
+  {
     'match': '#='
     'name': 'keyword.operator.sharpequal.prolog'
   }
