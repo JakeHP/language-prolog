@@ -56,6 +56,10 @@
     'name': 'keyword.operator.definition.prolog'
   }
   {
+    'match': '.'
+    'name': 'punctuation.separator.statement.prolog'
+  }
+  {
     'match': '!'
     'name': 'support.constant.cut.prolog'
   }
