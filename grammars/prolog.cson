@@ -80,6 +80,10 @@
     'name': 'support.constant.fail.prolog'
   }
   {
+    'match': 'nl'
+    'name': 'support.constant.newline.prolog'
+  }
+  {
     'match': '_'
     'name': 'support.constant.joker.prolog'
   }
@@ -92,16 +96,32 @@
     'name': 'keyword.operator.sharpequal.prolog'
   }
   {
+    'match': '#=<'
+    'name': 'keyword.operator.sharple.prolog'
+  }
+  {
     'match': '=<'
     'name': 'keyword.operator.le.prolog'
+  }
+  {
+    'match': '#<'
+    'name': 'keyword.operator.sharplt.prolog'
   }
   {
     'match': '<'
     'name': 'keyword.operator.lt.prolog'
   }
   {
+    'match': '#>='
+    'name': 'keyword.operator.sharpge.prolog'
+  }
+  {
     'match': '>='
     'name': 'keyword.operator.ge.prolog'
+  }
+  {
+    'match': '#>'
+    'name': 'keyword.operator.sharpgt.prolog'
   }
   {
     'match': '>'
@@ -120,6 +140,10 @@
     'name': 'keyword.operator.minus.prolog'
   }
   {
+    'match': '\\*'
+    'name': 'keyword.operator.times.prolog'
+  }
+  {
     'match': '\\|'
     'name': 'keyword.operator.cons.prolog'
   }
@@ -130,6 +154,14 @@
   {
     'match': '\\bconsult\(\\w*\)\\b'
     'name': 'keyword.control.consult.prolog'
+  }
+  {
+    'match': '\\bcall\(\\w*\)\\b'
+    'name': 'keyword.control.call.prolog'
+  }
+  {
+    'match': '\\bwrite\(\\w*\)\\b'
+    'name': 'keyword.control.write.prolog'
   }
   {
     'match': '\\b[A-Z][a-zA-Z0-9_]*\\b'
