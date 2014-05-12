@@ -112,7 +112,7 @@
     'name': 'keyword.operator.is.prolog'
   }
   {
-    'match': '+'
+    'match': '\\+'
     'name': 'keyword.operator.plus.prolog'
   }
   {
