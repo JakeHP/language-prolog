@@ -88,8 +88,16 @@
     'name': 'keyword.operator.le.prolog'
   }
   {
+    'match': '<'
+    'name': 'keyword.operator.lt.prolog'
+  }
+  {
     'match': '>='
     'name': 'keyword.operator.ge.prolog'
+  }
+  {
+    'match': '>'
+    'name': 'keyword.operator.gt.prolog'
   }
   {
     'match': '=|(?:is)'
