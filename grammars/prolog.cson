@@ -1,5 +1,6 @@
 'fileTypes': [
   'pl'
+  'plg'
   'prolog'
 ]
 'name': 'Prolog'
