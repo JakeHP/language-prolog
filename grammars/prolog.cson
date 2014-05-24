@@ -2,6 +2,7 @@
   'pl'
   'plg'
   'prolog'
+  'pdb'
 ]
 'name': 'Prolog'
 'patterns': [
