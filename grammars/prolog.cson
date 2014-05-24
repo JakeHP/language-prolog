@@ -196,7 +196,7 @@
     'name': 'keyword.control.call.prolog'
   }
   {
-    'match': '\\b(?:append|arg|bagof|findall|read|end_of_file|get_byte|get|flush_output|member|print|prin|tab|put|setof|forall|between)\(\\w*\)\\b'
+    'match': '\\b(?:append|arg|bagof|findall|read|end_of_file|get_byte|get|flush_output|member|print|prin|tab|put|setof|forall|between|select|length)\(\\w*\)\\b'
     'name': 'support.function.prolog'
   }
   {
