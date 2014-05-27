@@ -88,8 +88,44 @@
     'name': 'support.constant.joker.prolog'
   }
   {
+    'match': '\\\\+'
+    'name': 'keyword.operator.not.prolog'
+  }
+  {
+    'match': '@<'
+    'name': 'keyword.operator.alphabeticalllt.prolog'
+  }
+  {
+    'match': '@=<'
+    'name': 'keyword.operator.alphabeticallyle.prolog'
+  }
+  {
+    'match': '@>='
+    'name': 'keyword.operator.alphabeticallyge.prolog'
+  }
+  {
+    'match': '@>'
+    'name': 'keyword.operator.alphabeticallygt.prolog'
+  }
+  {
+    'match': '\\\\=='
+    'name': 'keyword.operator.notidentical.prolog'
+  }
+  {
     'match': '\\\\='
     'name': 'keyword.operator.notequal.prolog'
+  }
+  {
+    'match': '=='
+    'name': 'keyword.operator.identical.prolog'
+  }
+  {
+    'match': '=:='
+    'name': 'keyword.operator.equalexpr.prolog'
+  }
+  {
+    'match': '=\\\\='
+    'name': 'keyword.operator.notequalexpr.prolog'
   }
   {
     'match': '#='
@@ -160,17 +196,16 @@
     'name': 'keyword.control.call.prolog'
   }
   {
-    'match': '\\bwrite\(\\w*\)\\b'
-    'name': 'keyword.control.write.prolog'
+    'match': '\\b(?:append|arg|bagof|findall|read|end_of_file|get_byte|get|flush_output|member|print|prin|tab|put|setof|forall|between|select|length)\(\\w*\)\\b'
+    'name': 'support.function.prolog'
   }
   {
     'match': '\\b[A-Z][a-zA-Z0-9_]*\\b'
     'name': 'variable.other.prolog'
   }
   {
-    'comment': '\n\t\t\tI changed this from entity to storage.type, but have no idea what it is -- Allan\n\t\t\tAnd I changed this to constant.other.symbol after glancing over the docs,\n\t\t\t    might still be wrong.  -- Infininight\n\t\t\t'
     'match': '\\b[a-z][a-zA-Z0-9_]*\\b'
-    'name': 'constant.other.symbol.prolog'
+    'name': 'entity.name.function.declaration.prolog'
   }
 ]
 'scopeName': 'source.prolog'
