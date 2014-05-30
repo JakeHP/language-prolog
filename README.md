@@ -10,3 +10,4 @@ pull request to add snippets, make grammar tweaks, etc.
 
 Contributors:
 [iSheeft](https://github.com/iSheeft)
+[Artymort](https://github.com/Artymort)
