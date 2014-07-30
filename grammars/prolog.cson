@@ -101,6 +101,12 @@
     ]
   }
   {
+    'match': '(must_be)\\(\\s*([^, ]+)'
+    'captures':
+      '1': 'name': 'keyword.must_be.prolog'
+      '2': 'name': 'storage.type.prolog'
+  }
+  {
     'match': ':-'
     'name': 'keyword.operator.definition.prolog'
   }
