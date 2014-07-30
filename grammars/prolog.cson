@@ -29,6 +29,52 @@
     ]
   }
   {
+    'begin': '"'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.prolog'
+    'end': '"'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.prolog'
+    'name': 'string.quoted.double.prolog'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.prolog'
+      }
+      {
+        'match': '""'
+        'name': 'constant.character.escape.quote.prolog'
+      }
+    ]
+  }
+  {
+    'begin': '`'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.string.begin.prolog'
+    'end': '`'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.string.end.prolog'
+    'name': 'string.quoted.other.prolog'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.prolog'
+      }
+      {
+        'match': '``'
+        'name': 'constant.character.escape.quote.prolog'
+      }
+    ]
+  }
+  {
+    'match': '\\b[a-z][a-zA-Z0-9_]*(?![(])\\b'
+    'name': 'string.unquoted.atom.prolog'
+  }
+  {
     'begin': '/\\*'
     'captures':
       '0':
@@ -206,7 +252,7 @@
     'name': 'variable.other.prolog'
   }
   {
-    'match': '\\b[a-z][a-zA-Z0-9_]*\\b'
+    'match': '\\b[a-z][a-zA-Z0-9_]*(?=[(])\\b'
     'name': 'entity.name.function.declaration.prolog'
   }
 ]
