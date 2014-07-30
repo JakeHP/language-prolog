@@ -104,6 +104,10 @@
     'name': 'keyword.operator.definition.prolog'
   }
   {
+    'match': '-->'
+    'name': 'keyword.operator.definition.prolog'
+  }
+  {
     'match': '\\.'
     'name': 'punctuation.separator.statement.prolog'
   }
