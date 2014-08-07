@@ -223,8 +223,13 @@
     'name': 'keyword.operator.gt.prolog'
   }
   {
-    'match': '=|(?:is)'
-    'name': 'keyword.operator.is.prolog'
+    'match': '='
+    'name': 'keyword.operator.unify.prolog'
+  }
+  {
+    'match': '\\s+(is)\\s+'
+    'captures':
+      '1': 'name': 'keyword.operator.is.prolog'
   }
   {
     'match': '\\+'
