@@ -6,6 +6,7 @@
   'prolog'
   'pdb'
 ]
+'firstLineMatch': '(:-|-->)'
 'name': 'Prolog'
 'patterns': [
   {
