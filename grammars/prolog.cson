@@ -10,6 +10,10 @@
 'name': 'Prolog'
 'patterns': [
   {
+    'match': "\\b0'.\\b"
+    'name': 'constant.numeric.prolog'
+  }
+  {
     'begin': '\''
     'beginCaptures':
       '0':
@@ -250,6 +254,18 @@
   }
   {
     'match': '\\b\\d+(\\.\\d+)?([eE][-+]?\\d+)?\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
+    'match': '\\b0b[01]+\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
+    'match': '\\b0o[0-7]+\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
+    'match': '\\b0x[0-9a-fA-F]+\\b'
     'name': 'constant.numeric.prolog'
   }
   {
