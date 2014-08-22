@@ -249,7 +249,7 @@
     'name': 'keyword.operator.cons.prolog'
   }
   {
-    'match': '\\b\\d+\\b'
+    'match': '\\b\\d+(\\.\\d+)?([eE][-+]?\\d+)?\\b'
     'name': 'constant.numeric.prolog'
   }
   {
