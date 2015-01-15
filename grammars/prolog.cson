@@ -6,8 +6,13 @@
   'prolog'
   'pdb'
 ]
+'firstLineMatch': '(:-|-->)'
 'name': 'Prolog'
 'patterns': [
+  {
+    'match': "\\b0'.\\b"
+    'name': 'constant.numeric.prolog'
+  }
   {
     'begin': '\''
     'beginCaptures':
@@ -99,6 +104,12 @@
         'name': 'comment.line.percentage.prolog'
       }
     ]
+  }
+  {
+    'match': '(must_be)\\(\\s*([^, ]+)'
+    'captures':
+      '1': 'name': 'keyword.must_be.prolog'
+      '2': 'name': 'storage.type.prolog'
   }
   {
     'match': ':-'
@@ -217,8 +228,13 @@
     'name': 'keyword.operator.gt.prolog'
   }
   {
-    'match': '=|(?:is)'
-    'name': 'keyword.operator.is.prolog'
+    'match': '='
+    'name': 'keyword.operator.unify.prolog'
+  }
+  {
+    'match': '\\s+(is)\\s+'
+    'captures':
+      '1': 'name': 'keyword.operator.is.prolog'
   }
   {
     'match': '\\+'
@@ -237,7 +253,19 @@
     'name': 'keyword.operator.cons.prolog'
   }
   {
-    'match': '\\b\\d+\\b'
+    'match': '\\b\\d+(\\.\\d+)?([eE][-+]?\\d+)?\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
+    'match': '\\b0b[01]+\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
+    'match': '\\b0o[0-7]+\\b'
+    'name': 'constant.numeric.prolog'
+  }
+  {
+    'match': '\\b0x[0-9a-fA-F]+\\b'
     'name': 'constant.numeric.prolog'
   }
   {
