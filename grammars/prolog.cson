@@ -5,6 +5,7 @@
   'plt'
   'prolog'
   'pdb'
+  'pro'
 ]
 'firstLineMatch': '(:-|-->)'
 'name': 'Prolog'
