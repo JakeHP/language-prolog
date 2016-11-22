@@ -157,6 +157,14 @@
     'name': 'keyword.operator.not.prolog'
   }
   {
+    'match': '->'
+    'name': 'keyword.operator.ifthen.prolog'
+  }
+  {
+    'match': '=\.\.'
+    'name': 'keyword.operator.runtimeeval.prolog'
+  }
+  {
     'match': '@<'
     'name': 'keyword.operator.alphabeticalllt.prolog'
   }
