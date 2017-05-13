@@ -6,6 +6,7 @@
   'prolog'
   'pdb'
   'pro'
+  'swi'
 ]
 'firstLineMatch': '(:-|-->)'
 'name': 'Prolog'
