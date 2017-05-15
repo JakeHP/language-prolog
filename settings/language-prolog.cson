@@ -2,3 +2,8 @@
   'editor':
     'commentStart': '% '
     'increaseIndentPattern': '(:-|-->|->)\\s*$'
+  autocomplete:
+      symbols:
+        function:
+          selector: '.entity.name.function'
+          typePriority: 1
