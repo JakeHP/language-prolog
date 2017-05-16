@@ -283,15 +283,15 @@
     'name': 'support.function.prolog'
   }
   {
-    'match': '\\b[A-Z][a-zA-Z0-9_]*\\b'
+    'match': '\\b[A-ZáéíóúÑÁÉÍÓÚÑ][a-zA-Z0-9_áéíóúÑÁÉÍÓÚÑ]*\\b'
     'name': 'variable.other.prolog'
   }
   {
-    'match': '\\b_[a-zA-Z0-9_]+\\b'
+    'match': '\\b_[a-zA-Z0-9_áéíóúÑÁÉÍÓÚÑ]+\\b'
     'name': 'variable.other.singleton.prolog'
   }
   {
-    'match': '\\b[a-z][a-zA-Z0-9_]*(?=[(])\\b'
+    'match': '\\b[a-záéíóúÑÁÉÍÓÚÑ][a-zA-Z0-9_áéíóúÑÁÉÍÓÚÑ]*(?=[(])\\b'
     'name': 'entity.name.function.declaration.prolog'
   }
 ]
