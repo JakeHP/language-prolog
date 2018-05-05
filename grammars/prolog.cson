@@ -79,7 +79,7 @@
     ]
   }
   {
-    'match': '\\b[a-z][a-zA-Z0-9_]*(?![(])\\b'
+    'match': '\\b[\\p{Lower}][\\w]*(?![(])\\b'
     'name': 'string.unquoted.atom.prolog'
   }
   {
@@ -283,15 +283,15 @@
     'name': 'support.function.prolog'
   }
   {
-    'match': '\\b[A-Z][a-zA-Z0-9_]*\\b'
+    'match': '\\b[\\p{Upper}][\\w]*\\b'
     'name': 'variable.other.prolog'
   }
   {
-    'match': '\\b_[a-zA-Z0-9_]+\\b'
+    'match': '\\b_[\\w]+\\b'
     'name': 'variable.other.singleton.prolog'
   }
   {
-    'match': '\\b[a-z][a-zA-Z0-9_]*(?=[(])\\b'
+    'match': '\\b[\\p{Lower}][\\w]*(?=[(])\\b'
     'name': 'entity.name.function.declaration.prolog'
   }
 ]
