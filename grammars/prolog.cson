@@ -255,6 +255,30 @@
     'name': 'keyword.operator.cons.prolog'
   }
   {
+    'match': '>>'
+    'name': 'keyword.operator.bitshiftright.prolog'
+  }
+  {
+    'match': '<<'
+    'name': 'keyword.operator.bitshiftleft.prolog'
+  }
+  {
+    'match': '\\\\/'
+    'name': 'keyword.operator.bitor.prolog'
+  }
+  {
+    'match': '/\\\\'
+    'name': 'keyword.operator.bitand.prolog'
+  }
+  {
+    'match': '\\s+(xor)\\s+'
+    'name': 'keyword.operator.bitxor.prolog'
+  }
+  {
+    'match': '\\\\'
+    'name': 'keyword.operator.bitnegation.prolog'
+  }
+  {
     'match': '\\b\\d+(\\.\\d+)?([eE][-+]?\\d+)?\\b'
     'name': 'constant.numeric.prolog'
   }
